@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/house"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/baitap2"
+        android:icon="@drawable/work"
+        android:title="Bài 2"/>
+
+
+    <item
+        android:id="@+id/baitap3"
+        android:icon="@drawable/work"
+        android:title="Bài 3"/>
+
+    <item
+        android:id="@+id/baitap4"
+        android:icon="@drawable/work"
+        android:title="Bài 4"/>
+</menu>

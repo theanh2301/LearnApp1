@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextASolve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập a"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextBSolve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập b"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextCSolve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập c"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSolve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giải"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewResultSolve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết quả"
+            android:paddingTop="16dp"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>
